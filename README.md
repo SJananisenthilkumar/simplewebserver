@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:25.10.2023
+## Date: 20.10.2023
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -25,39 +25,41 @@ Testing the webserver.
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
-<title>Image Map </title>
+<title> Top five Revenue Generating Software Companies </title>
 <body>
-<table border="1" cellspacing="2" cellpadding="5">
-<caption> top five revenue generating software companies </caption>
+<table border="2" cellspacing="7" cellpadding="6">
+<caption> Top five Revenue Generating Software Companies </caption>
 <tr>
-  <th>S.no</th>
-<th>Companies</th>
-<th>Revenue</th>
+<td>S.No</td>
+<td>Company</td>
+<td>Revenue</td>
 </tr>
 <tr>
-<th>1</th>
-<th>Microsoft</th>
-<th>65 Billion</th>
+<td>1</td>
+<td>Microsoft</td>
+<td>65 Billion</td>
+</tr>
+<tr>        
+<td>2</td>		
+<td>Oracle</td>
+<td>29.6 Billion</td>
 </tr>
 <tr>
-<th>2</th>
-<th>oracle</th>
-<th>29.6 Billion</th>
+<td>3</td>
+<td>IBM</td>
+<td>29.1 Billion</td>>
 </tr>
 <tr>
-<th>3</th>
-<th>IBM</th>
-<th>29.1 Billion</th>
+<td>4</td>
+<td>SAP</td>
+<td>6.4 Billion</td>
 </tr>
 <tr>
-<th>4</th>
-<th>SAP</th>
-<th>6.4 Billion</th>
+<td>5</td>
+<td>Symantec</td>
+<td>5.6 Billion</td>
 </tr>
-<tr>
-<th>5</th>
-<th>Symantech</th>
-<th>5.4 Billion</th>
+</table>
 </body>
 </html>
 """
@@ -74,9 +76,10 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 
+
 ## OUTPUT:
-![Alt text](Screenshot.png)
-![Alt text](screenshot(1).png)
+![Alt text](<Screenshot 2023-10-27 145020.png>)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
