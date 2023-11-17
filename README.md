@@ -40,12 +40,12 @@ content = """
 				<td>65 Billion</td>
 			</tr>
 			<tr>        
-        <td>2</td>		
-        <td>Oracle</td>
+                                <td>2</td>		
+                                <td>Oracle</td>
 				<td>29.6 Billion</td>
 			</tr>
 			<tr>
-        <td>3</td>
+                                <td>3</td>
 				<td>IBM</td>
 				<td>29.1 Billion</td>>
 			</tr>
@@ -55,7 +55,7 @@ content = """
 				<td>6.4 Billion</td>
 			</tr>
 			<tr>
-        <td>5</td>
+                                <td>5</td>
 				<td>Symantec</td>
 				<td>5.6 Billion</td>
 			</tr>
